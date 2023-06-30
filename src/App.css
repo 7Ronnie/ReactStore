@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.headerComp{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoComp{
+    padding: 0px 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.infoComp nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.infoComp nav ul li{
+    padding: 5px 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.fields{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnComp{
+    /* margin: 0px 15px; */
+    padding: 2px 18px;
 }
+
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: left;
+}
+
+.restaurantComp{
+    border: 1px solid black;
+    width: 200px;
+    padding: 6px 8px;
+    margin: 12px 25px;
+}
+
+.restaurantComp:hover{
+    border-radius: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.restaurantComp img{
+    width: 200px;
+}
+
